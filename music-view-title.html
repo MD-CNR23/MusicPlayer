@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style music view.css">
+    <title></title>
+</head>
+<body>
+      <!-- loading -->
+      <div class="loader hidden" id="loader">
+        <img src="image/giphy.gif" alt="Loading..." />
+      </div>
+
+
+        <div class="contentpage">
+            <div class="back-from-home-page">
+                <button class="backToTheHomePageBtn"><i class="fas fa-home"></i></button>
+              </div>
+            <div class="contianer-music-optional">
+                <img src="" alt="" id="pic-music">
+                <span id="music-name"></span>
+                <span id="category-name"></span>
+                <div class="operator-music">
+                    <button id="prev-btn" class="btn-style backward"><i class="fas fa-backward icon" id = "prev"></i></button>
+                    <button id="play-pause-btn" class="btn-style play"><i class="fas fa-play icon" id = "play-pause" style="color: #fff"></i></button>
+                    <button id="next-btn" class="btn-style forward"><i class=" fas fa-forward icon" id = "next"></i></button>
+                    <audio src=""></audio>
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                        <div class="duration-wrapper">
+                            <span id="current-time"></span>
+                            <span id="duration"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+    <script src="js/about view js music.js"></script>
+</body>
+</html>

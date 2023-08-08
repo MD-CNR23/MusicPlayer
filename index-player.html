@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-player.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body dir="auto">
+
+    <!-- loading -->
+    <div class="loader hidden" id="loader">
+        <img src="image/giphy.gif" alt="Loading..." />
+      </div>
+
+      <div class="content-page">
+
+   <!-- header & menu site -->
+
+    <header class="container-header">
+        <div class="box-menu">
+            <nav class="main-menu">
+                <ul class="nav main-menu">
+                    <li class="nav-item nav-li"><a href="#" class="nav-link"><i class="fas fa-music icon-menu"></i> styles</a> </li>
+                    <li class="nav-item nav-li"><a href="#" class="nav-link"><i class="fas fa-heart icon-menu"></i> selected</a></li>
+                    <li class="nav-item nav-li"><a href="#" class="nav-link"><i class="fas fa-arrow-up icon-menu"></i> trends</a></li>
+                    <li class="nav-item nav-li"><a href="#" class="nav-link"><i class="fas fa-crown icon-menu"></i> premium</a></li>
+                    <li class="nav-item nav-li"><a href="#" class="nav-link"><i class="fas fa-paint-brush icon-menu"></i> change Theme</a>
+                        <ul>
+                            <div class='color-box color1' data-color="#2bbae6" style="background: linear-gradient(to right, #00b7ff, #0b4cd6);"></div><li class="nav-item nav-li">Default</li>
+                            <div class='color-box color2' data-color="#8038bb" style="background: linear-gradient(to right, #8e4cda, #7904af);"></div><li class="nav-item nav-li">Purple</li>
+                            <div class='color-box color3' data-color="#1cb65d" style="background: linear-gradient(to right, #00ff4c, #409e38);"></div><li class="nav-item nav-li">Green</li>
+                            <div class='color-box color4' data-color="#ff1756" style="background: linear-gradient(to right, #ff004c, #cc0505);"></div><li class="nav-item nav-li">Red</li>
+                            <div class='color-box color5' data-color="#e7572b" style="background: linear-gradient(to right, #ff7300, #c75b12);"></div><li class="nav-item nav-li">Orange</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- menu list  -->
+    <div class="container-box"></div>
+
+
+    <div class="selected">
+        <p id="p-Title">selected</p> 
+        <hr id="hr-select">
+        <hr class="hrSelect2">
+        <hr class="hrSelect3">
+        <a href="file:///C:/Users/user/Desktop/(music-player)blue%20project/music-list.html?id=7" id="see-More">see more</a>
+    </div>
+
+    <div class="trends">
+        <p id="p-trends-Title">trends</p>
+        <hr id="hr-trends">
+        <hr class="hrTrends2" style="top: 90px; width: 150px; right: 86.8%;">
+        <hr class="hrTrends3" style="top: 100px; width: 170px; right: 85.4%;">
+        <a href="file:///C:/Users/user/Desktop/(music-player)blue%20project/music-list.html?id=8" id="see-More-trends">see more</a>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+
+    <div class="container-slider">
+
+        <div class="slider">
+          <div class="slider-item active">
+            <img src="image/artists/trends.jpg" class="img-slider">
+          </div>
+          <button type="button" class="prev" ><i class="fas fa-backward"></i></button>
+          <button type="button" class="next" ><i class="fas fa-forward"></i></button>
+        </div>
+
+        <div class="slider">
+            <div class="slider-item active">
+              <img src="image/artists/edSheeran.jpg" class="img-slider-2">
+            </div>
+            <button type="button" class="prev p2" ><i class="fas fa-backward"></i></button>
+            <button type="button" class="next n2" ><i class="fas fa-forward"></i></button>
+          </div>
+
+          <div class="slider">
+            <div class="slider-item active">
+              <img src="image/artists/selected.png" class="img-slider-3">
+            </div>
+            <button type="button" class="prev p3" ><i class="fas fa-backward"></i></button>
+            <button type="button" class="next n3" ><i class="fas fa-forward"></i></button>
+          </div>
+
+      </div>
+      </div>
+      <div class="footer">
+            <p class="about-me"><a href="" class="nav-link">About</a></p><p id="slash">|</p><p class="contact-me"><a href="" class="nav-link">Contact</a></p>
+            <p class="privacy"><a href="" class="nav-link">privacy policy</a></p>
+            <p class="termsofuse"><a href="" class="nav-link">terms of use</a></p>
+            <p class="date">2023</p>
+            <hr id="slash-Footer">
+            <img src="image/artists/png-transparent-apple-music-social-media-logo-application-logo-app-logo-application-app-3d-icon-thumbnail.png" alt="" id="img-footer">
+          </div>
+          <script src="js/about player.js"></script>
+
+</body>
+</html>

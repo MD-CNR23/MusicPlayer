@@ -1,0 +1,355 @@
+body{
+    background-color: #232323;
+    color: aliceblue;
+}
+
+.container-title {
+    position: relative;
+    width: 100%;
+    height: 285px;
+    border-radius: 10px;
+    background: #000;
+    filter: brightness(90%);
+}
+
+.container-music {
+    display: flexbox;
+    position: relative;
+    width: 80%;
+    height: 90px;
+    top: 70px;
+    background-color: #000c1d;
+    left: 140px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.container-music:hover{
+    box-shadow: 0 0 3px wheat;
+
+}
+
+#cover-music {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.btn-style {
+    position: absolute;
+    border-radius: 50%;
+    top: 23px;
+    width: 45px;
+    height: 45px;
+    font-size: 23px;
+    border: 1px solid #1d52ff;
+    background-color: #1d52ff;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn-style::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 150%;
+    height: 200%;
+    background: #000c1d;
+    transition: all 0.7s;
+    z-index: -1;
+    transform: translateX(-300px) skew(-20deg);
+ }
+
+ .btn-style:hover::before{
+    transform: translateX(0px) skew(-20deg);
+    transition: all 0.6s;
+ }
+
+#music-name {
+    position: absolute;
+    top: 33px;
+    left: 180px;
+}
+
+#singer-name::before {
+    content: "From ";
+}
+
+#titlemusiclist {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-size: 50px;
+}
+
+.img-cover-musiclist {
+    position: absolute;
+    width: 30%;
+    top: 20px;
+    right: 60px;
+    height: 240px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#hr-title {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+}
+
+/* responsive */
+
+@media (min-width: 1345px) {
+    .content-box{
+        position: relative;
+        width: 1345px;
+    }    
+}
+
+@media (min-width: 1025px) and (max-width: 1344px) {
+    .container-title{
+        height: 335px;
+    }
+    #titlemusiclist {
+        top: 130px;
+        left: 5%;
+        font-size: 50px;
+    }
+    #hr-title{
+        top: 355px;
+    }
+    .img-cover-musiclist {
+        width: 40%;
+        top: 20px;
+        right: 5%;
+        height: 85%;
+    }
+    .container-music {
+        width: 80%;
+        height: 90px;
+        left: 110px;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+    #cover-music{
+        left: 10px;
+    }
+    #music-name{
+        top: 30px;
+        left: 120px;
+        font-size: 20px;
+    }
+    .btn-style{
+        top: 20px;
+        left: 88%;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1024px) {
+    .container-title{
+        height: 335px;
+    }
+    #titlemusiclist {
+        top: 130px;
+        left: 5%;
+        font-size: 40px;
+    }
+    #hr-title{
+        top: 355px;
+    }
+    .img-cover-musiclist {
+        width: 55%;
+        top: 20px;
+        right: 3%;
+        height: 85%;
+    }
+    .container-music {
+        width: 95%;
+        height: 90px;
+        left: 20px;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+    #cover-music{
+        left: 10px;
+    }
+    #music-name{
+        top: 30px;
+        left: 120px;
+        font-size: 20px;
+    }
+    .btn-style{
+        top: 20px;
+        left: 88%;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 950px) {
+     .container-title{
+        height: 335px;
+    }
+    #titlemusiclist {
+        top: 130px;
+        left: 5%;
+        font-size: 40px;
+    }
+    #hr-title{
+        top: 355px;
+    }
+    .img-cover-musiclist {
+        width: 55%;
+        top: 20px;
+        right: 3%;
+        height: 80%;
+    }
+    .container-music {
+        width: 95%;
+        height: 90px;
+        left: 20px;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+    #cover-music{
+        left: 10px;
+    }
+    #music-name{
+        top: 30px;
+        left: 90px;
+        font-size: 20px;
+    }
+    .btn-style{
+        top: 20px;
+        left: 88%;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+ .container-title{
+        height: 435px;
+    }
+    #titlemusiclist {
+        top: 330px;
+        left: 30%;
+        font-size: 50px;
+    }
+    #hr-title{
+        top: 455px;
+    }
+    .img-cover-musiclist {
+        width: 75%;
+        top: 20px;
+        right: 13%;
+        height: 65%;
+    }
+    .container-music {
+        width: 95%;
+        height: 90px;
+        left: 20px;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+    #cover-music{
+        left: 10px;
+    }
+    #music-name{
+        top: 30px;
+        left: 90px;
+        font-size: 20px;
+    }
+    .btn-style{
+        top: 20px;
+        left: 88%;
+    }
+}
+
+@media (min-width: 392px) and (max-width: 550px) {
+    .container-title{
+        height: 485px;
+    }
+    #titlemusiclist {
+        top: 350px;
+        left: 20%;
+        font-size: 40px;
+    }
+    #hr-title{
+        top: 500px;
+    }
+    .img-cover-musiclist {
+        width: 90%;
+        top: 20px;
+        right: 5%;
+        height: 285px;
+    }
+    .container-music {
+        width: 95%;
+        height: 90px;
+        left: 10px;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+    #cover-music{
+        left: 10px;
+    }
+    #music-name{
+        top: 30px;
+        left: 90px;
+        font-size: 20px;
+    }
+    .btn-style{
+        top: 20px;
+        left: 80%;
+    }
+}
+
+@media (min-width: 290px) and (max-width: 391px) {
+    .container-title{
+        height: 485px;
+    }
+    #titlemusiclist {
+        top: 350px;
+        left: 20px;
+        font-size: 40px;
+    }
+    #hr-title{
+        top: 500px;
+    }
+    .img-cover-musiclist {
+        width: 90%;
+        top: 20px;
+        right: 15px;
+        height: 235px;
+    }
+    .container-music {
+        width: 95%;
+        height: 130px;
+        left: 5px;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+    #cover-music{
+        left: 10px;
+    }
+    #music-name{
+        top: 90px;
+        left: 10px;
+        font-size: 20px;
+    }
+    .btn-style{
+        top: 10px;
+        left: 80%;
+    }
+}
