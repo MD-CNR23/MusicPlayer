@@ -61,12 +61,12 @@ let trendsMusic = [
 ]
 
 selectedMusic.forEach(function (musicselected) {
-    selected.insertAdjacentHTML('afterbegin', '<div class="music-selected float-start"><img src=" ' + musicselected.cover + ' " alt="" id="cover-back"><button class="button-play-title btn-play-selected"><a href="file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=' + musicselected.idTrack + '"><i class="fas fa-play play-icon-select"></i></a></button><p id="name-music"> ' + musicselected.name + ' </p></div>')
+    selected.insertAdjacentHTML('afterbegin', '<div class="music-selected float-start"><img src=" ' + musicselected.cover + ' " alt="" id="cover-back"><button class="button-play-title btn-play-selected"><a href="https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=' + musicselected.idTrack + '"><i class="fas fa-play play-icon-select"></i></a></button><p id="name-music"> ' + musicselected.name + ' </p></div>')
 })
 
 
 trendsMusic.forEach(function (musictrends) {
-    trends.insertAdjacentHTML('afterbegin', '<div class="music-trends float-start"><img src=" ' + musictrends.cover + ' " alt="" id="cover-back-trends"><button class="button-play-title btn-play-selected"><a href="file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=' + musictrends.idTrack + '"><i class="fas fa-play play-icon-trends"></i></a></button><p id="name-music"> ' + musictrends.name + ' </p></div>')
+    trends.insertAdjacentHTML('afterbegin', '<div class="music-trends float-start"><img src=" ' + musictrends.cover + ' " alt="" id="cover-back-trends"><button class="button-play-title btn-play-selected"><a href="https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=' + musictrends.idTrack + '"><i class="fas fa-play play-icon-trends"></i></a></button><p id="name-music"> ' + musictrends.name + ' </p></div>')
 })
 
 
