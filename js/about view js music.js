@@ -29,7 +29,7 @@ let allmusic = [
     // games
     {id: 1, idTrack: 1, name : "Game", nameTrack : "Bioshok infinite",cover: "image/game/bioshock infinite.png", path : "music/game/18 Solace.mp3", layersColor: "linear-gradient(to bottom, #dbe729d5,#e6c94dd5, #a71a1ae3)"},
     {id: 1, idTrack: 2, name : "Game", nameTrack : "Assassins Creed Revelations",cover: "image/game/assassin_s_creed_revelations.jpg", path : "music/game/Assassin's Creed Revelations.mp3", layersColor: "linear-gradient(to bottom, #066cf3e7,#211fb6d5, #22c5e2e3)"},
-    {id: 1, idTrack: 3, name : "Game", nameTrack : "assassins Creed 2",cover: "image/game/assassins creed2.JPG", path : "music/game/Jesper Kyd - Ezios Family.mp3", layersColor: "linear-gradient(to bottom,#979204 ,#8f0606d5,#4a4b0b)"},
+    {id: 1, idTrack: 3, name : "Game", nameTrack : "assassins Creed 2",cover: "image/game/assassins creed2jpg", path : "music/game/Jesper Kyd - Ezios Family.mp3", layersColor: "linear-gradient(to bottom,#979204 ,#8f0606d5,#4a4b0b)"},
     {id: 1, idTrack: 4, name : "Game", nameTrack : "batman Arkham City",cover: "image/game/batman-arkham-city.jpg", path : "music/game/13._batman_arkham_city_main_theme.mp3", layersColor: "linear-gradient(to bottom,#e7e7e7 ,#888888d5,#181818)"},
     {id: 1, idTrack: 5, name : "Game", nameTrack : "call Of Duty Modern Warfare 4",cover: "image/game/call of duty mw3.jpg", path : "music/game/call of duty.mp3", layersColor: "linear-gradient(to bottom,#0f0f0f ,#054100b4,#181818)"},
     {id: 1, idTrack: 6, name : "Game", nameTrack : "crysis 2",cover: "image/game/crysis.jpg", path : "music/game/crysis-2-_epilogue_main_theme.mp3", layersColor: "linear-gradient(to bottom,#71d87a ,#525252ef,#537e51)"},
