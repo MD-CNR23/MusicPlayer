@@ -25,7 +25,7 @@ let allmusic = [
     // games
     {id: 1, idTrack: 1, name : "Game", nameTrack : "Bioshok infinite",cover: "image/game/bioshock infinite.png"},
     {id: 1, idTrack: 2, name : "Game", nameTrack : "assassins Creed Revelations",cover: "image/game/assassin_s_creed_revelations.jpg"},
-    {id: 1, idTrack: 3, name : "Game", nameTrack : "assassins Creed 2",cover: "image/game/assassins creed2.JPG"},
+    {id: 1, idTrack: 3, name : "Game", nameTrack : "assassins Creed 2",cover: "image/game/assassins creed2.jpg"},
     {id: 1, idTrack: 4, name : "Game", nameTrack : "batman Arkham City",cover: "image/game/batman-arkham-city.jpg"},
     {id: 1, idTrack: 5, name : "Game", nameTrack : "call Of Duty Modern Warfare 4",cover: "image/game/call of duty mw3.jpg"},
     {id: 1, idTrack: 6, name : "Game", nameTrack : "crysis2",cover: "image/game/crysis.jpg"},
@@ -156,12 +156,12 @@ if (mianUser) {
     mianUserMusic.forEach(function (music) {
         contianerMusicList.insertAdjacentHTML('afterend', '<div class="container-music"><img src="' +
         music.cover + '" alt="cover" id="cover-music"><span id="music-name"> ' +
-        music.nameTrack + ' </span><div class="operator-music"></audio><button id="play-pause-btn"  id = "play-pause" class="btn-style" style="right: 100px;"><a href="file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id= ' + music.idTrack+ '"><i class="fas fa-play icon" id = "play-pause" style="left: 15px; color: #fff"></i></a></button></div></div>')
+        music.nameTrack + ' </span><div class="operator-music"></audio><button id="play-pause-btn"  id = "play-pause" class="btn-style" style="right: 100px;"><a href="https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id= ' + music.idTrack+ '"><i class="fas fa-play icon" id = "play-pause" style="left: 15px; color: #fff"></i></a></button></div></div>')
         })
     titleMusicList.innerHTML = mianUser.name
     imgCoverMusiclist.setAttribute('src', mianUser.cover)
     containerTitle.style.background = mianUser.color
 } else {
     alert("Page Not Found :(")
-    location.href = 'file:///C:/Users/user/Desktop/(music-player)blue%20project/index-player.html'
+    location.href = 'https://md-cnr23.github.io/MusicPlayer/index-player.html'
 }
