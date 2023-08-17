@@ -80,7 +80,7 @@ trendsMusic.forEach(function (musictrends) {
     })
 
 allMusicsStyles.forEach(function (style) {
-    containerBox.insertAdjacentHTML('afterbegin', '<div class="col-md-3 col-sm-12 float-start ratio-4×3 pop-box card"><center><div class="capture">' + style.name + '</div></center><hr><img src=" ' + style.cover + ' " class="img-cover-game col-md-12 float-start ratio-4×3 card" alt="game music title"><div class="col-md-3 col-sm-12 float-start ratio-4×3"><button class="button-play-title"><a href="file:///C:/Users/user/Desktop/(music-player)blue%20project/music-list.html?id= ' + style.id + '"><i class="fas fa-play play-icon"></i></a></button></div></div>')
+    containerBox.insertAdjacentHTML('afterbegin', '<div class="col-md-3 col-sm-12 float-start ratio-4×3 pop-box card"><center><div class="capture">' + style.name + '</div></center><hr><img src=" ' + style.cover + ' " class="img-cover-game col-md-12 float-start ratio-4×3 card" alt="game music title"><div class="col-md-3 col-sm-12 float-start ratio-4×3"><button class="button-play-title"><a href="https://md-cnr23.github.io/MusicPlayer/music-list.html?id= ' + style.id + '"><i class="fas fa-play play-icon"></i></a></button></div></div>')
 }) 
 
 
