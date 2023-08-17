@@ -162,7 +162,7 @@ if (mianUser) {
     boxMusic.style.background = mianUser.layersColor
 } else {
     alert("Page Not Found :(")
-    location.href = 'file:///C:/Users/user/Desktop/(music-player)blue%20project/index-player.html'
+    location.href = 'https://md-cnr23.github.io/MusicPlayer/index-player.html'
 }
 
 document.body.addEventListener('keyup', function (event) {
@@ -179,19 +179,19 @@ document.body.addEventListener('keyup', function (event) {
   }
   if (event.code === "MediaTrackNext") {
     songIndex++;
-    location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack + 1)
+    location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack + 1)
     if (mianUser.idTrack > allmusic.length - 1) {
       songIndex = 0;
-      location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack - (allmusic.length -1))
+      location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack - (allmusic.length -1))
     }
     playSong()
   }else if (event.code === "MediaTrackPrevious") {
     songIndex--;
-    location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack - 1) 
+    location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack - 1) 
     if (mianUser.idTrack == 1) {
       songIndex = allmusic.length
       mianUser.idTrack = allmusic.length
-      location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack)
+      location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack)
     }
     playSong()
   }
@@ -231,11 +231,11 @@ playPauseBtn.addEventListener('click' ,function () {
 // Previous Song
 function prevSong() {
   songIndex--;
-  location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack - 1) 
+  location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack - 1) 
   if (mianUser.idTrack == 1) {
     songIndex = allmusic.length
     mianUser.idTrack = allmusic.length
-    location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack)
+    location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack)
   }
   playSong()
 }
@@ -243,10 +243,10 @@ function prevSong() {
 // Next Song
 function nextSong() {
   songIndex++;
-  location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack + 1)
+  location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack + 1)
   if (mianUser.idTrack > allmusic.length - 1) {
     songIndex = 0;
-    location = "file:///C:/Users/user/Desktop/(music-player)blue%20project/music-view-title.html?id=" + (mianUser.idTrack - (allmusic.length -1))
+    location = "https://md-cnr23.github.io/MusicPlayer/music-view-title.html?id=" + (mianUser.idTrack - (allmusic.length -1))
   }
   playSong()
 }
@@ -292,7 +292,7 @@ function setProgressBar(e) {
 }
 
 backToTheHomePageBtn.addEventListener("click", function () {
-  location.href = 'file:///C:/Users/user/Desktop/(music-player)blue%20project/index-player.html'
+  location.href = 'https://md-cnr23.github.io/MusicPlayer/index-player.html'
 })
 
 
