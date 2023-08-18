@@ -35,7 +35,7 @@ let allMusicsStyles = [
     {id: 1, name : "Game", cover: "image/artists/the-witcher.jpg"},
     {id: 2, name : "Rock", cover: "image/artists/Serj tankian.jpg"},
     {id: 3, name : "Movie", cover: "image/artists/interstellar.jpg"},
-    {id: 4, name : "rap & HipHap", cover: "image/artists/eminem.jpg"},
+    {id: 4, name : "rap & HipHop", cover: "image/artists/eminem.jpg"},
     {id: 5, name : "Pop", cover: "image/artists/edSheeran.jpg"},
     {id: 6, name : "Classic", cover: "image/artists/classic.jpg"}
 ];
